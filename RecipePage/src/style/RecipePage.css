@@ -11,8 +11,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    max-width: 400px;
+    /* align-items: center; */
+    max-width: 50vw;
     height: auto;
     padding: 15px;
     border-radius: 20px;
