@@ -1,37 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: rgba(250, 128, 114, 0.295);
+    background-color: #F3E5D8;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
+    height: auto;
+    width: auto;
+    margin-top: 10rem;
 }
 #Recipe{
-    background-color: #FFFFFF;
+    background-color: #FAFAFA;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40rem;
+    max-width: 600px;
+    width: 90%;
     height: auto;
     padding: 15px;
     border-radius: 20px;
-    overflow: auto;
-    margin: 50px 50px 0 0;
+    /* overflow: auto; */
+    margin: 30px 50px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    
 }
 #Image img{
-    display: flex;
-    width: 40rem;
-    border-radius: 10px; 
+    display: block;
+    max-width: 100%;
+    /* width: 38rem; */
+    border-radius: 1.5rem; 
     justify-content: center;
     height: auto;
-    padding: auto;
-    font-family 
+    padding: 5px;
+    /* font-family  */
+}
+div{
+    display: flex;
+    justify-content: center;
 }
 #title{
-    padding: 0 0 0 20px;
+    padding-left: 1.5rem;
+    line-height: 5rem;
 }
 #resume{
-    padding: 0 0 0 20px;
+    padding-left: 1.1rem;
+}
+h2{
+    padding-left: 1rem;
+    line-height: 5rem;
+}
+ul,ol{
+    padding-left: 3rem;
+}
+p{
+    padding: 0 0 1rem 1rem;
 }
