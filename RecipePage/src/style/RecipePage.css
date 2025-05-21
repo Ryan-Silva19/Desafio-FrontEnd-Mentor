@@ -1,45 +1,64 @@
-body {
-    background-color: rgba(250, 128, 114, 0.295);
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    align-items: center;
-    /* flex-wrap: wrap; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-#Recipe {
-    background-color: #FFFFFF;
+body{
+    background-color: #F3E5D8;
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    max-width: 30rem;
-    width: auto;
+    /* overflow: hidden; */
+    /* flex-wrap: wrap; */
     height: auto;
-    padding: 5px auto ;
-    margin: 50px;
-    border-radius: 20px;
-    overflow: auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    width: auto;
+    margin-top: 10rem;
 }
-#Image img {
+#Recipe{
+    background-color: #FAFAFA;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 90%;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    /* overflow: auto; */
+    margin: 30px 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    
+}
+#Image img{
+    display: block;
     max-width: 100%;
-    border-radius: 15px;
+    /* width: 38rem; */
+    border-radius: 1.5rem; 
     justify-content: center;
     height: auto;
-}
-
-#title {
     padding: 5px;
+    /* font-family  */
 }
-
-#resume {
-    padding: 5px;
+div{
+    display: flex;
+    justify-content: center;
 }
-
-
-h2,p {
-    padding: 5px;
+#title{
+    padding-left: 1.5rem;
+    line-height: 5rem;
+}
+#resume{
+    padding-left: 1.1rem;
+}
+h2{
+    padding-left: 1rem;
+    line-height: 5rem;
+}
+ul,ol{
+    padding-left: 3rem;
+}
+p{
+    padding: 0 0 1rem 1rem;
 }
